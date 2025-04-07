@@ -61,11 +61,11 @@ const Projects = () => {
       >
         {/* Left Section */}
   <div className="flex flex-col text-left w-3/5 tracking-tight">
-    <div className="font-poppins text-4xl font-medium text-black leading-tight" style={{ letterSpacing: '-0.1em' }}>
+    <div className="font-poppins text-4xl font-semibold text-black leading-tight" style={{ letterSpacing: '-0.05em' }}>
       {app.title}
     </div>
     {app.title2 && (
-      <div className="font-poppins text-4xl font-medium text-black" style={{ letterSpacing: '-0.1em', marginTop: '-8px' }}>
+      <div className="font-poppins text-4xl font-semibold text-black" style={{ letterSpacing: '-0.05em', marginTop: '-8px' }}>
         {app.title2}
       </div>
     )}

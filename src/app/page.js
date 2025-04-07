@@ -23,7 +23,7 @@ export default function Home() {
             <div className="font-poppins text-5xl sm:text-6xl lg:text-8xl font-medium leading-tight" style={{ letterSpacing: '-0.05em' }}>
               Nedeljkov
             </div>
-            <div className="font-poppins text-5xl sm:text-6xl lg:text-8xl font-medium leading-tight" style={{ letterSpacing: '-0.05em', marginTop: '-36px' }}>
+            <div className="font-poppins text-5xl sm:text-6xl lg:text-8xl font-medium leading-tight" style={{ letterSpacing: '-0.05em', marginTop: '-24px', marginleft: "4"}}>
               Ivana
             </div>
           </div>
