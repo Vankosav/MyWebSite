@@ -1,8 +1,8 @@
 const Roles = () => {
   const CardSection = ({ title, title2, description, image, children }) => {
     return (
-      <div className="w-full sm:w-[600px] h-auto bg-black p-2 font-poppins">
-        <h3 className="text-4xl font-poppins font-semibold leading-tight text-white" style={{ letterSpacing: '-0.05em' }}>{title}</h3>
+<div className="w-full max-w-[800px] h-full bg-black p-4 font-poppins flex flex-col justify-between">
+<h3 className="text-4xl font-poppins font-semibold leading-tight text-white" style={{ letterSpacing: '-0.05em' }}>{title}</h3>
         <h3 className="text-4xl font-poppins font-medium leading-tight text-yellow-400" style={{ letterSpacing: '-0.05em', marginTop: '-16px' }}>{title2}</h3>
         <p className="mt-2 text-lg text-white text-left font-poppins" style={{ letterSpacing: '-0.02em', marginTop: '2px' }}>{description}</p>
         <div className="bg-yellow-400 mt-4 p-0">
@@ -14,7 +14,8 @@ const Roles = () => {
   };
 
   return (
-    <section className="w-full px-6 sm:px-8 py-16 flex flex-col sm:flex-row justify-center items-start gap-8 bg-black">
+<section className="w-full px-6 sm:px-8 py-16 bg-black">
+<div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 place-items-center">
       {/* Web Developer */}
       <CardSection
         title="Web"
@@ -68,6 +69,7 @@ const Roles = () => {
           <li>Patience</li>
         </ul>
       </CardSection>
+      </div>
     </section>
   );
 };
