@@ -8,6 +8,7 @@ import Image from "next/image";
 import Explanation from "../components/Explanation";
 import Roles from "../components/Roles";
 import Projects from "../components/Projects";
+import LXDProjects from "../components/LXDProjects.jsx"
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -47,6 +48,7 @@ export default function Home() {
       </div>
       <Roles />
       <Projects />
+      <LXDProjects />
       <Contact />
       <Footer />
     </div>

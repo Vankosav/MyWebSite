@@ -58,8 +58,9 @@ const Projects = () => {
   return (
     <section id="projects" className="w-full bg-black text-center py-20">
       <h2 className="text-3xl text-white font-poppins uppercase font-bold mb-28 tracking-tight">
-        Projects
+        Web Development Projects
       </h2>
+      
       <div className="w-full space-y-0">
         {apps.map((app, index) => (
           <div
